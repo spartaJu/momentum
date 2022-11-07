@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>나만의 동기부여 홈화면 만들기</title>
+    <title>명언 배경화면</title>
 
 
     <style>
@@ -23,15 +23,16 @@
 
         body {
             background-image: url("https://www.10wallpaper.com/wallpaper/medium/1311/falling_star-Night_sky_HD_wallpaper_medium.jpg");
-            background-position: center;
+            background-position: center center;
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-attachment: fixed;
+            background-size: cover;
 
             color: white;
         }
 
         .time {
-            font-size: 100px;
+            font-size: 80px;
             font-weight: bold;
         }
 
@@ -101,7 +102,7 @@
 <body>
     <div class="main">
         <div id="time" class="time">12:00</div>
-        <div class="greeting">오늘도 좋은 하루 되시길 바랍니다!</div>
+        <div class="greeting">오늘도 화이팅!</div>
         <div class="todo">늘 최선을 다하자!</div>
     </div>
     <div class="quote">
